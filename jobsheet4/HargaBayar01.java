@@ -25,7 +25,7 @@ public class HargaBayar01 {
         jumlahDis = total*dis;
         bayar = total-jumlahDis;
         
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         System.out.println("Merk buku yang anda beli adalah\t\t: " + MerkBuku);
         System.out.println("Diskon yang anda dapatkan adalah\t: " + "Rp" + jumlahDis);
         System.out.println("Jumlah yang harus dibayar adalah\t: " + "Rp"+ bayar);
