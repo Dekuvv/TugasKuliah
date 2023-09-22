@@ -9,11 +9,17 @@ public class Gaji01 {
         int gaji = 100000, potGaji = 25000;
         
         //INPUT
-        System.out.print("Masukkan Jumlah Hari Masuk Kerja Anda\t\t:");
+        System.out.print("Masukkan Jumlah Hari Masuk Kerja Anda\t\t: ");
         jml_Masuk = input.nextInt();
 
-        System.out.print("Masukkan jumlah hari tidak masuk kerja anda\t:");
+        System.out.print("Masukkan jumlah hari tidak masuk kerja anda\t: ");
         jml_TidakMasuk = input.nextInt();
+        
+        System.out.println("Besaran Gaji: ");
+        gaji = input.nextInt();
+    
+        System.out.println("Potongan Gaji: ");
+        potGaji = input.nextInt();
 
         totalGaji=(jml_Masuk*gaji)-(jml_TidakMasuk*potGaji);
 
