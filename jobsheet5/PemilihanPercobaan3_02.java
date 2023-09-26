@@ -10,7 +10,7 @@ import java.util.Scanner;
             Scanner input = new Scanner (System.in);
 
             //ask user to enter operator
-            System.out.println("Chosee an operator: +, -, *");
+            System.out.println("Chosee an operator: +, -, *, /");
             operator=input.next().charAt(0);
             
             //ask user to enter numbers

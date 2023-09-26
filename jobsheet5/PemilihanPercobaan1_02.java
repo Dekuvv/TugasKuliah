@@ -6,12 +6,12 @@ public class PemilihanPercobaan1_02{
         Scanner input02 = new Scanner(System.in);
 
         System.out.print("Masukkan Angka: ");
-        int angka = input02.nextInt();
+        int angka;
 
-        if (angka % 2 == 0) {
-            System.out.println("Angka" + angka + "bilangan genap");
-        } else {
-            System.out.println("Angka" + angka + "bilangan ganjil");
-        }
+        System.out.println("Masukkan Angka: ");
+        angka = input02.nextInt();
+
+        String hasil = angka % 2 == 0  ? "Adalah Bilangan Genap" : "Adalah bilangan Ganjil";
+        System.out.println(hasil);
     }
 }
