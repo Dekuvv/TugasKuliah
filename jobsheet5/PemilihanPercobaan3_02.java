@@ -26,7 +26,7 @@ import java.util.Scanner;
                 case '+':
                     result = number1 + number2;
                     System.out.println(number1 + "+" + number2 + "=" + result);
-                    
+                    break;
                     
                     //PERFORM PENGURANGAN
                     case '-':
@@ -45,7 +45,7 @@ import java.util.Scanner;
                     result = number1 / number2;
                     System.out.println(number1 + "/" + number2 + '/' + result);
                     default:
-                    System.out.println("ga ada bang");
+                    System.out.println("error coba lagi");
                     break;
                 }
                 input.close();
