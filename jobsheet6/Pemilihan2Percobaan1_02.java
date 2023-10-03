@@ -12,9 +12,9 @@ public class Pemilihan2Percobaan1_02 {
         
         if ((tahun % 4) == 0) {
             if ((tahun % 100) != 0){
-            System.out.print(tahun + "Tahun Kabisat");
+            System.out.print(tahun +"Tahun Kabisat");
             }else if ((tahun % 400) == 0){
-            System.out.println(tahun + "Tahun Kabisat");
+            System.out.println( tahun +"Tahun Kabisat");
 
             } 
             else {
