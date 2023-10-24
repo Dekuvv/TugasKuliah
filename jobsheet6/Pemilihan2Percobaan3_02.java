@@ -31,6 +31,7 @@ public class Pemilihan2Percobaan3_02 {
             } else {
                 pajak = 0.25;
             }   
+            
             gajiBersih = (int) (penghasilan - (pajak * penghasilan));
             System.out.println("penghasilan bersih " + gajiBersih);
         } else {
